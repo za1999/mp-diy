@@ -1,0 +1,56 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "style": {
+        "navigationBarTitleText": "工具盒-主页"
+      }
+    },
+    {
+      "path": "pages/about",
+      "style": {
+        "navigationBarTitleText": "工具盒-关于"
+      }
+    },
+    {
+      "path": "pages/function-page/binary",
+      "style": {
+        "navigationBarTitleText": "二进制聊天"
+      }
+    },
+    {
+      "path": "pages/function-page/Screen-detection",
+      "style": {
+        "navigationBarTitleText": "屏幕检测",
+        "navigationStyle": "custom",
+        "disableScroll": true
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#64748B",
+    "selectedColor": "#22D3EE",
+    "backgroundColor": "#0A0F1E",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "主页",
+        "iconPath": "/static/h1.svg",
+        "selectedIconPath": "/static/h2.svg"
+      },
+      {
+        "pagePath": "pages/about",
+        "text": "关于",
+        "iconPath": "/static/a1.svg",
+        "selectedIconPath": "/static/a2.svg"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#0A0F1E",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "工具盒"
+  },
+  "subPackages": []
+}
