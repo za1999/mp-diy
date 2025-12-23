@@ -86,7 +86,7 @@ function luma(hex: string) {
 const labelColor = computed(() => (luma(current.value.hex) > 0.5 ? '#000000' : '#ffffff'));
 
 function syncNavBar() {
-    const front = luma(current.value.hex) > 0.5 ? '#000000' : '#FFFFFF';
+    const front = luma(current.value.hex) > 0.5 ? 'black' : 'white';
     uni.setNavigationBarColor({ frontColor: front, backgroundColor: current.value.hex });
 }
 
